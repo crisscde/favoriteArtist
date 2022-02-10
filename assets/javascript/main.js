@@ -39,10 +39,10 @@ links.forEach(function(link){
     ev.preventDefault();
     let content = document.querySelector('.content');
 
-    // Se queitan las animaciones que ya tiene
+    // Se quitan las animaciones que ya tiene
     content.classList.remove("animate__slideInUp");
       
-    // Se agregan nuevas animacioes cuando se sale
+    // Se agregan nuevas animaciones cuando se sale
     content.classList.add("animate__rollOut");
 
     setTimeout(function(){
