@@ -46,7 +46,7 @@ links.forEach(function(link){
     content.classList.add("animate__rollOut");
 
     setTimeout(function(){
-      location.href =   ("../Boletines");
+      location.href =   ("../");
     },700)
 
   });
